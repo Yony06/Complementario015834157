@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Complementario015834157.MainPage">
+
+
+    <VerticalStackLayout Padding="30">
+        
+        <Entry x:Name="NumberEntry1" Placeholder="Ingrese el primer número" Keyboard="Numeric"/>
+        <Entry x:Name="NumberEntry2" Placeholder="Ingrese el segundo número" Keyboard="Numeric"/>
+        <Entry x:Name="NumberEntry3" Placeholder="Ingrese el tercer número" Keyboard="Numeric"/>
+        <Entry x:Name="NumberEntry4" Placeholder="Ingrese el cuarto número" Keyboard="Numeric"/>
+        <Button Text="Invertir Orden" Clicked="Button_Clicked"/>
+        <Label x:Name="ResultLabel" Text="Resultado invertido" FontSize="Medium" VerticalOptions="CenterAndExpand"/>
+
+        <Image Source="numeros.jpg" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               WidthRequest="100" 
+               HeightRequest="100"/>
+        
+    </VerticalStackLayout>
+
+</ContentPage>
